@@ -1,0 +1,141 @@
+/*start header style*/
+
+.container {
+    max-width: 1178px;
+    padding: 0px 15px;
+    margin: 40px 300px 10px 150px;
+    clear: both;
+}
+.fl {
+    float: left;
+    margin-right: 40px;
+    padding: 0px 0px 10px 0px;
+}
+
+.favorit {
+    padding-top: 10px;
+}
+.secondbtn {
+    padding: 15px 50px;
+}
+
+.secondbtn:hover {
+    background: transparent;
+    color: #6bace7;
+    border: 2px solid #6bace7;
+}
+.secondbtn:focus {
+    background-color: rgb(55, 83, 211);
+    border-color: cornflowerblue;
+    outline: none;
+}
+
+.secondbtn:active {
+    background:ivory;
+}
+
+.fr {
+    float: right;
+}
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #b6bec4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    margin: 40px 25px 10px 25px;
+}
+
+a:hover {
+    border-bottom: 2px solid #6bace7;
+}
+header {
+    background: white;
+    min-height: 90px;
+}
+
+.header-box {
+    overflow: auto;
+}
+
+
+/*end header style*/
+
+/*start first section style*/
+
+.sec-1 {
+    background-image: url(../image/no-man-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 220px 0px 150px 0px;
+}
+.sec-1-box {
+    border: 3px solid white;
+    padding: 40px 35px;
+   
+    
+}
+.sec-1-title-white {
+    display: block;
+    font-size: 30px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    word-spacing: 30px;
+    letter-spacing: 15px;
+
+}
+.sec-1-title-blue {
+    color: #83c6fd;
+    font-size: 30px;
+    font-family:"Bringin";
+    word-spacing: 25px;
+    line-height: 1px;
+           
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
+}
+
+.btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 4px;
+    border-radius: 5px;
+    background: #6bace7;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-blue-lg {
+    padding: 20px 80px;
+    margin-top: 20px;
+    
+}
+
+.btn-blue-lg:hover {
+    background: transparent;
+    color: #6bace7;
+    border: 2px solid #6bace7;
+    
+}
+
+.btn-blue-lg:focus {
+    background-color: rgb(55, 83, 211);
+    border-color: cornflowerblue;
+    outline: none;
+}
+
+.btn-blue-lg:active {
+    background:ivory;
+
+}
+
+/*end first section style*/
